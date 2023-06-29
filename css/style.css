@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  height: 100vh;
+}
+h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+.searchCont {
+  height: 70%;
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.searchCont input {
+  width: 70%;
+  height: 2.5em;
+}
+@media (min-width: 640px) {
+  .searchCont input {
+    width: 65%;
+  }
+}
+@media (min-width: 1024px) {
+  .searchCont input {
+    width: 50%;
+  }
+}
+.searchCont button {
+  height: 2.5em;
+  padding: 0.5em;
+  margin: 0.2em;
+}
+
+.randomRecipes {
+  min-height: 400px;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+@media (min-width: 640px) {
+  .randomRecipes {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+.cards {
+  height: 350px;
+  width: 15em;
+  border: 1px solid black;
+  margin: 2%;
+}
+.card1 {
+  background-color: blue;
+}
+.card2 {
+  background-color: chocolate;
+}
+.card3 {
+  background-color: aqua;
+}
+.card4 {
+  background-color: green;
+}
+.card5 {
+  background-color: yellowgreen;
+}
+.card6 {
+  background-color: grey;
+}
