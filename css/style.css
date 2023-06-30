@@ -74,3 +74,32 @@ h1 {
 .card6 {
   background-color: grey;
 }
+
+.recipeView {
+  height: 100dvh;
+  margin: 0 1.5rem;
+}
+@media (min-width: 640px) {
+  .recipeView {
+    width: 80%;
+    margin: auto;
+  }
+}
+@media (min-width: 720px) {
+  .recipeView {
+    width: 75%;
+  }
+}
+@media (min-width: 1080px) {
+  .recipeView {
+    width: 55%;
+  }
+}
+.recipeView .recipeImg {
+  height: 45%;
+  background-color: aquamarine;
+}
+.recipeView .recipeIngredients {
+  height: 35%;
+  background-color: cornflowerblue;
+}
